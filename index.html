@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dan's Portfolio</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="scss/modules/_all.scss">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- Top Navigation Menu -->
+  <div class="navigation__menu">
+    <script src="script.js"></script>
+    <a href="#home" class="active">Logo</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="#intro"> Intro</a>
+      <a href="#about-me">About-me</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+
+    </div>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="welcome">
+    <h1>Welcome to my <span>Portfolio</span></h1>
+  </div>
+
+
+  <section class="intro" id="intro">
+    <div class="intro__background__image1">
+      <img src="img/welcome-01.png" alt="a computer screen image">
+    </div>
+
+    <div class="intro__title">
+      <h2> Making it happen </h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis harum culpa voluptas tempore beatae minima
+        ipsam, quia perferendis dolore? Quae dolores enim, sint voluptas totam aperiam eos earum nobis dolorem?</p>
+    </div>
+
+    <div class="intro__background__image2">
+      <img src="img/welcome-02.png" alt="computers">
+    </div>
+  </section>
+
+
+  <section class="about" id="about-me">
+
+    <div class="about__image">
+      <img class="about-img" src="img/joe-portfolio.png" alt="human">
+    </div>
+
+    <div class="about__title">
+      <h1 class="about-title"> Dan Portfolio </h1>
+    </div>
+
+    <div class="about__subtitle">
+      <h2 class="about-subtitle"> Designer & Developer</h2>
+    </div>
+
+
+
+
+
+    <div class="about__text">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reprehenderit nostrum minus vitae, illo,
+        voluptas tenetur voluptatum odit sapiente facilis ut quibusdam nobis laborum quasi dolores in tempore fugit ea?
+      </p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda explicabo vitae harum temporibus dolorem
+        aspernatur. Id repellat at molestiae inventore ipsum reiciendis, similique perspiciatis quasi quidem eligendi
+        eum ipsam accusantium.</p>
+    </div>
+  </section>
+
+
+  <section class="portfolio" id="portfolio">
+    <h1>My works</h1>
+    <div class="portfolio__items">
+
+      <figure class="portfolio__item ">
+        <img src="img/portfolio-01.jpg" alt="portfolio item">
+        <figcaption>
+          <div class="item__title">
+            <h2 class="item__title">Project Name</h2>
+          </div>
+
+          <div class="item__description">
+            <p class="item__description"> A short description can go here </p>
+          </div>
+          <div class="item__link">
+            <a href="#">More info</a>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="portfolio__item ">
+        <img src="img/portfolio-02.jpg" alt="portfolio item">
+        <figcaption>
+
+          <div class="item__title">
+            <h2 class="item__title">Project Name</h2>
+          </div>
+          <div class="item__description">
+            <p class="item__description"> A short description can go here </p>
+          </div>
+          <div class="item__link">
+            <a href="#">More info</a>
+          </div>
+        </figcaption>
+      </figure>
+
+
+      <figure class="portfolio__item ">
+        <img src="img/portfolio-04.jpg" alt="portfolio item">
+        <figcaption>
+          <div class="item__title">
+            <h2 class="item__title">Project Name</h2>
+          </div>
+          <div class="item__description">
+            <p class="item__description"> A short description can go here </p>
+          </div>
+          <div class="item__link">
+            <a href="#">More info</a>
+          </div>
+        </figcaption>
+      </figure>
+
+      <figure class="portfolio__item">
+        <img src="img/portfolio-05.jpg" alt="portfolio item">
+        <figcaption>
+          <div class="item__title">
+            <h2 class="item__title">Project Name</h2>
+          </div>
+          <div class="item__description">
+            <p class="item__description"> A short description can go here </p>
+          </div>
+          <div class="item__link">
+            <a href="#" class="">More info</a>
+          </div>
+        </figcaption>
+      </figure>
+
+    </div>
+
+  </section>
+
+
+  <section class="contact" id="contact">
+    <h1>Contact me</h1>
+    <form>
+
+      <div class="contact__label">
+        <label class="name">Name:
+          <input type="text" id="name">
+        </label>
+      </div>
+
+      <div class="contact__label">
+        <label class="email"> Email:
+          <input type="email" id="email">
+        </label>
+      </div>
+
+      <div class="contact__label">
+        <label class="message"> Message:
+          <textarea id="message"></textarea>
+        </label>
+      </div>
+
+      <div class="contact__button">
+        <input class="button" type="submit" value="SEND">
+      </div>
+
+
+
+    </form>
+  </section>
+
+
+  <footer class="footer">
+
+    <div class="footer__paragraph1">
+      <p> Follow me on social media</p>
+    </div>
+
+    <div class="footer__social-icons">
+
+      <div class="social-icons__icon">
+        <img class="social-icon" src="img/twitter.svg" alt="twitter">
+      </div>
+
+      <div class="social-icons__icon">
+        <img class="social-icon" src="img/instagram.svg" alt="instagram">
+      </div>
+
+      <div class="social-icons__icon">
+        <img class="social-icon" src="img/github.svg" alt="github">
+      </div>
+
+    </div>
+
+
+    <div class="footer__paragraph2">
+      <p class="copyright"> Copyright 2020 Dan alekseev</p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
